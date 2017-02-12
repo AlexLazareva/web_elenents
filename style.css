@@ -1,0 +1,34 @@
+.container{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 30px;
+}
+.tabs{
+	background-color: #4e4949;
+	border-radius: 5px 5px 0 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.tab{
+	background-color: #5cb85c;
+	border: 0;
+	color: #fff;
+	display: inline-block;
+	margin: 0 0 0 -4px;
+	padding: 15px 25px;
+	list-style-type: none;
+}
+.tab a{
+	text-decoration: none;
+	color: #fff;
+}
+.active{
+	background-color: #009000;
+}
+.tab_content{
+	background-color: #f9f1f1;
+	border: 1px solid #4e4949;
+	padding: 10px;
+}
